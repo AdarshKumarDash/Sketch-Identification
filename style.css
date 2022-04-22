@@ -1,1 +1,54 @@
-/*  */
+body{
+    background-color: #ffff2d;
+}
+
+canvas {
+    border: 2px solid #333;
+    animation: animate 1s infinite;
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+h1 {
+    width: 100%;
+    background-color: cyan;
+}
+
+#userimg, #confidence {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+}
+
+#showsketch {
+    float: right;
+}
+
+
+
+
+
+
+
+
+@keyframes animate{
+    0% {
+        box-shadow: 5px 5px 30px 10px rgb(13, 255, 0);
+    }
+    25% {
+        box-shadow: 5px 5px 30px 10px rgb(255, 25, 25);
+    }
+    50% {
+        box-shadow: 5px 5px 30px 10px rgb(153, 19, 255);
+    }
+    75% {
+        box-shadow: 5px 5px 30px 10px rgb(27, 244, 255);
+    }
+    100% {
+        box-shadow: 5px 5px 30px 10px rgb(16, 48, 255);
+    }
+}
